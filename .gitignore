@@ -1,3 +1,28 @@
 # IDEA Items
 *.iml
 .idea/
+
+*.class
+pmd_result.log
+mvn_pmd.sh
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.settings
+.idea
+.metadata
+target
+classes
+.jupiter
+.project
+.classpath
+*.log
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.iml
+/bin/
+/target/
