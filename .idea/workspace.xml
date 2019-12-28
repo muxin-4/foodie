@@ -2,130 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsCommentsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsImgMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsParamMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsSpecMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/OrderItemsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/OrderStatusMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/OrdersMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/StuMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/UserAddressMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/UsersMapper.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/Application.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/HelloController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-api/target/classes/com/imooc/controller/StuFooController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/CategoryMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsCommentsMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsImgMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsParamMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsSpecMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/OrderItemsMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/OrderStatusMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/OrdersMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/StuMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/UserAddressMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/UsersMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CarouselMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/CategoryMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsCommentsMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsImgMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsParamMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/ItemsSpecMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/OrderItemsMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/OrderStatusMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/OrdersMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/StuMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/UserAddressMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/mapper/UsersMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/com/imooc/my/mapper/MyMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Carousel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Category.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsComments.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsImg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/ItemsSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/OrderItems.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/OrderStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Orders.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Stu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/UserAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/target/classes/com/imooc/pojo/Users.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/StuService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/TestTransService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/StuServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/classes/com/imooc/service/impl/TestTransServiceImpl.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/Application.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/HelloController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/HelloController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/PassportController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/StuFooController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/StuFooController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CarouselMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/my/mapper/MyMapper.java" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/my/mapper/MyMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Carousel.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Carousel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Category.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Items.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Items.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/ItemsComments.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsComments.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/ItemsImg.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsImg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/ItemsParam.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsParam.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/ItemsSpec.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsSpec.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/OrderItems.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/OrderItems.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/OrderStatus.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/OrderStatus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Orders.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Orders.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Stu.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Stu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/UserAddress.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/UserAddress.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo/Users.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Users.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/StuService.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/StuService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/TestTransService.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/TestTransService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/UserService.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/StuServiceImpl.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/StuServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/TestTransServiceImpl.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/TestTransServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/test-classes/com/test/TransTest.class" afterPath="$PROJECT_DIR$/foodie-api/target/test-classes/com/test/TransTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/JSONResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/foodie-api/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/test/java/com/test/TransTest.java" afterPath="$PROJECT_DIR$/foodie-api/src/test/java/com/test/TransTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/classes/application.yml" afterPath="$PROJECT_DIR$/foodie-api/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/CarouselMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/CarouselMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsCommentsMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsCommentsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsImgMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsImgMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsParamMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsParamMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsSpecMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsSpecMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrderItemsMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrderItemsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrderStatusMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrderStatusMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrdersMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrdersMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/StuMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/StuMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/UserAddressMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/UserAddressMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/UsersMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/UsersMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/CarouselMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/CarouselMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/CategoryMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/CategoryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsCommentsMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsCommentsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsImgMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsImgMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsParamMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsParamMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsSpecMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsSpecMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/OrderItemsMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/OrderItemsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/OrderStatusMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/OrderStatusMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/OrdersMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/OrdersMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/StuMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/StuMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/UserAddressMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/UserAddressMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/UsersMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/UsersMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/foodie-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -154,13 +33,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
+      <file leaf-file-name="PassportController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="528">
+              <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONResult.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/JSONResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="94" column="11" lean-forward="false" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1454#1455#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1569#1570#0" expanded="true" />
+                <element signature="e#1622#1623#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1734#1735#0" expanded="true" />
+                <element signature="e#1790#1791#0" expanded="true" />
+                <element signature="e#1843#1844#0" expanded="true" />
+                <element signature="e#2365#2366#0" expanded="true" />
+                <element signature="e#2406#2407#0" expanded="true" />
+                <element signature="e#2440#2441#0" expanded="true" />
+                <element signature="e#2469#2470#0" expanded="true" />
+                <element signature="e#2514#2515#0" expanded="true" />
+                <element signature="e#2550#2551#0" expanded="true" />
+                <element signature="e#2580#2581#0" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
+                <element signature="e#2644#2645#0" expanded="true" />
+                <element signature="e#2674#2675#0" expanded="true" />
+                <element signature="e#2705#2706#0" expanded="true" />
+                <element signature="e#2732#2733#0" expanded="true" />
+                <element signature="e#2772#2773#0" expanded="true" />
+                <element signature="e#2804#2805#0" expanded="true" />
+                <element signature="e#2830#2831#0" expanded="true" />
+                <element signature="e#2846#2847#0" expanded="true" />
+                <element signature="e#2879#2880#0" expanded="true" />
+                <element signature="e#2898#2899#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,6 +112,8 @@
       <find>UserService</find>
       <find>debugger</find>
       <find>imooc</find>
+      <find>IMOOCJSONResult</find>
+      <find>ok(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,6 +175,8 @@
         <option value="$PROJECT_DIR$/foodie-api/src/test/java/com/test/TransTest.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/PassportController.java" />
+        <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/JSONResult.java" />
+        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
       </list>
     </option>
   </component>
@@ -413,6 +340,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utiils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
@@ -588,11 +524,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.muxin.utiils" />
       <recent name="com.imooc.service" />
       <recent name="com.imooc.service.impl" />
       <recent name="com.imooc.controller" />
       <recent name="com.imooc.pojo" />
-      <recent name="com.imooc.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources" />
@@ -794,7 +730,7 @@
       <workItem from="1576939025708" duration="105000" />
       <workItem from="1576988261887" duration="4396000" />
       <workItem from="1577102150405" duration="2339000" />
-      <workItem from="1577508095453" duration="5385000" />
+      <workItem from="1577508095453" duration="6792000" />
     </task>
     <servers />
   </component>
@@ -819,7 +755,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56590000" />
+    <option name="totallyTimeSpent" value="57997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,7 +767,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="31" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -842,7 +778,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50809467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50809467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -882,13 +818,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/OrderItemsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/UserAddressMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1260,20 +1189,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="322">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/JSONResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="94" column="11" lean-forward="false" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2550#2551#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="e#2644#2645#0" expanded="true" />
+            <element signature="e#2674#2675#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#2804#2805#0" expanded="true" />
+            <element signature="e#2830#2831#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+            <element signature="e#2898#2899#0" expanded="true" />
           </folding>
         </state>
       </provider>
