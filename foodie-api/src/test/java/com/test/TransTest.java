@@ -1,8 +1,8 @@
 package com.test;
 
-import com.imooc.Application;
-import com.imooc.service.StuService;
-import com.imooc.service.TestTransService;
+import com.muxin.Application;
+import com.muxin.service.StuService;
+import com.muxin.service.TestTransService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +15,8 @@ import org.springframework.test.context.junit4.SpringRunner;
  * @author: Mr.Wang
  * @create: 2019-18 12:45
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+//@RunWith(SpringRunner.class)
+//@SpringBootTest(classes = Application.class)
 public class TransTest {
 
     @Autowired
@@ -25,7 +25,7 @@ public class TransTest {
     @Autowired
     private TestTransService testTransService;
 
-    @Test
+//    @Test
     public void myTest() {
         testTransService.testPropagationTrans();
     }
