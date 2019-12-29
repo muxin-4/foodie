@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/Sex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/DateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Code.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/DayCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Id.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/IdWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/RandomCodeStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Sid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/WorkerIdStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/strategy/FileLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/HttpReq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/Ip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/Props.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/Serializes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/JSONResult.java" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/JSONResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/test-classes/com/test/TransTest.class" afterPath="$PROJECT_DIR$/foodie-api/target/test-classes/com/test/TransTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/UserService.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,46 +32,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PassportController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="207">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="77" column="32" lean-forward="false" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Sid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="54" column="22" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="260">
+              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComponentScan.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +143,6 @@
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/PassportController.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/JSONResult.java" />
-        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
         <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/UserService.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/MD5Utils.java" />
@@ -198,6 +154,7 @@
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Sid.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
       </list>
     </option>
   </component>
@@ -236,8 +193,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="302" />
-    <option name="y" value="23" />
+    <option name="x" value="215" />
+    <option name="y" value="72" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -325,6 +282,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="muxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muxin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
@@ -550,7 +517,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sid">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -726,9 +693,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sid" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MD5Utils" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.Application (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Sid" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MD5Utils" />
         <item index="3" class="java.lang.String" itemvalue="Spring Boot.Application" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TransTest" />
       </list>
@@ -774,7 +741,7 @@
       <workItem from="1576939025708" duration="105000" />
       <workItem from="1576988261887" duration="4396000" />
       <workItem from="1577102150405" duration="2339000" />
-      <workItem from="1577508095453" duration="14911000" />
+      <workItem from="1577508095453" duration="17528000" />
     </task>
     <servers />
   </component>
@@ -799,7 +766,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66116000" />
+    <option name="totallyTimeSpent" value="68733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,7 +778,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="24" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -821,13 +789,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25155666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38231632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15236051" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1109,22 +1077,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1134,7 +1092,7 @@
         <state relative-caret-position="253">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1283,14 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1298,14 +1248,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,6 +1266,30 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
