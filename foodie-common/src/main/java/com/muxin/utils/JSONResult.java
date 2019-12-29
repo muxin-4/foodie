@@ -1,12 +1,12 @@
-package com.muxin.utiils;
+package com.muxin.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  *
- * @Title: IMOOCJSONResult.java
- * @Package com.imooc.utils
+ * @Title: JSONResult.java
+ * @Package com.muxin.utils
  * @Description: 自定义响应数据结构
  * 				本类可提供给 H5/ios/安卓/公众号/小程序 使用
  * 				前端接受此类数据（json object)后，可自行根据业务去实现相关功能
@@ -18,8 +18,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * 				555：异常抛出信息
  * 				556: 用户qq校验异常
  * @Copyright: Copyright (c) 2020
- * @Company: www.imooc.com
- * @author 慕课网 - 风间影月
+ * @Company: www.yaoyaoniu.com
+ * @author muxin
  * @version V1.0
  */
 public class JSONResult {

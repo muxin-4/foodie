@@ -1,6 +1,7 @@
 package com.muxin.service;
 
-import com.muxin.pojo.Stu;
+import com.muxin.bo.UserBO;
+import com.muxin.pojo.Users;
 
 /**
  * @program: foodie
@@ -13,5 +14,13 @@ public interface UserService {
     /**
      * 判断用户名是否存在
      */
-   public boolean queryUsernameIsExist(String username);
+    public boolean queryUsernameIsExist(String username);
+
+    /**
+     * 创建用户
+     *
+     * @param userBO
+     * @return
+     */
+    public Users createUser(UserBO userBO);
 }
