@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/foodie-api.iml" afterPath="$PROJECT_DIR$/foodie-api/foodie-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-common/foodie-common.iml" afterPath="$PROJECT_DIR$/foodie-common/foodie-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/foodie-mapper.iml" afterPath="$PROJECT_DIR$/foodie-mapper/foodie-mapper.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-pojo/foodie-pojo.iml" afterPath="$PROJECT_DIR$/foodie-pojo/foodie-pojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/foodie-service.iml" afterPath="$PROJECT_DIR$/foodie-service/foodie-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie.iml" afterPath="$PROJECT_DIR$/foodie.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,17 +43,69 @@
         <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+              <caret line="80" column="1" lean-forward="false" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="119" column="21" lean-forward="false" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/service/Contact.class">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Docket.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spring-web/2.4.0/springfox-spring-web-2.4.0.jar!/springfox/documentation/spring/web/plugins/Docket.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentationType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spi/2.4.0/springfox-spi-2.4.0.jar!/springfox/documentation/spi/DocumentationType.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -88,10 +147,16 @@
       <find>ok(</find>
       <find>utils</find>
       <find>createUser</find>
-      <find>imooc</find>
       <find>Sex</find>
       <find>usersMapper</find>
+      <find>imooc</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsMapper.java" />
         <option value="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsParamMapper.java" />
         <option value="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/ItemsSpecMapper.java" />
         <option value="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper/OrderItemsMapper.java" />
@@ -136,7 +200,6 @@
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/TestTransService.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/TestTransServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/UserService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/foodie-api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/foodie-api/src/test/java/com/test/TransTest.java" />
@@ -155,6 +218,8 @@
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Sid.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java" />
       </list>
     </option>
   </component>
@@ -193,8 +258,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="215" />
-    <option name="y" value="72" />
+    <option name="x" value="157" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -291,174 +356,89 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="muxin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-core:2.4.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-core:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-core-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-core:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-core-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="idworker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="muxin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="muxin" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-core:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-core-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spi:2.4.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spi:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-spi-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spi:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-spi-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spi:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-spi-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="spi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spring-web:2.4.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spring-web:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-spring-web-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spring-web:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-spring-web-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.springfox:springfox-spring-web:2.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="springfox-spring-web-2.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -741,7 +721,7 @@
       <workItem from="1576939025708" duration="105000" />
       <workItem from="1576988261887" duration="4396000" />
       <workItem from="1577102150405" duration="2339000" />
-      <workItem from="1577508095453" duration="17528000" />
+      <workItem from="1577508095453" duration="23286000" />
     </task>
     <servers />
   </component>
@@ -766,7 +746,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68733000" />
+    <option name="totallyTimeSpent" value="74491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,7 +758,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -795,7 +775,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15236051" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -860,38 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsImgMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsCommentsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/CarouselMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -975,14 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1102,7 +1042,7 @@
         <state relative-caret-position="161">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1272,7 +1212,7 @@
     <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <caret line="80" column="1" lean-forward="false" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1287,9 +1227,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="119" column="21" lean-forward="false" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spi/2.4.0/springfox-spi-2.4.0.jar!/springfox/documentation/spi/DocumentationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spring-web/2.4.0/springfox-spring-web-2.4.0.jar!/springfox/documentation/spring/web/plugins/Docket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/service/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
