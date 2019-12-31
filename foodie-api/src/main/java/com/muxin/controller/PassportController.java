@@ -1,8 +1,10 @@
 package com.muxin.controller;
 
 import com.muxin.bo.UserBO;
+import com.muxin.pojo.Users;
 import com.muxin.service.UserService;
 import com.muxin.utils.JSONResult;
+import com.muxin.utils.MD5Utils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
@@ -56,7 +58,6 @@ public class PassportController {
                 StringUtils.isBlank(password) ||
                 StringUtils.isBlank(confirmPwd)) {
             return JSONResult.errorMsg("用户名或密码不能为空");
-
         }
 
         // 1. 查询用户名是否存在
@@ -81,6 +82,31 @@ public class PassportController {
 
         // 3. 请求成功，用户名没有重复
         return JSONResult.ok();
+
+    }
+
+    @ApiOperation(value = "用户登录", notes = "用户登录", httpMethod = "POST")
+    @PostMapping("/login")
+    public JSONResult login(@RequestBody UserBO userBO) throws Exception {
+
+        String username = userBO.getUsername();
+        String password = userBO.getPassword();
+
+        // 0. 判断用户名和密码不为空
+        if (StringUtils.isBlank(username) ||
+                StringUtils.isBlank(password)) {
+            return JSONResult.errorMsg("用户名或密码不能为空");
+        }
+
+        // 1. 实现登录
+        Users userResult = userService.queryUserForLogin(username, MD5Utils.getMD5Str(password));
+
+        if (userResult == null) {
+            return JSONResult.errorMsg("用户名或密码不正确");
+        }
+
+        // 3. 请求成功，用户名没有重复
+        return JSONResult.ok(userResult);
 
     }
 }
