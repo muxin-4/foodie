@@ -4,3 +4,4 @@
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/HelloController.java
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/Application.java
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/config/CorsConfig.java
+/Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/aspect/ServiceLogAspect.java
