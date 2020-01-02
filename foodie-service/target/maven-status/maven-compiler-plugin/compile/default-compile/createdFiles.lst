@@ -1,2 +1,4 @@
 com/muxin/service/impl/CarouselServiceImpl.class
+com/muxin/service/CategoryService.class
+com/muxin/service/impl/CategoryServiceImpl.class
 com/muxin/service/CarouselService.class
