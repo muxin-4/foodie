@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/idea 快捷键.md" afterPath="$PROJECT_DIR$/doc/idea 快捷键.md" />
-    </list>
+    <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/foodie-common/target/" />
@@ -745,7 +742,7 @@
       <workItem from="1577860923335" duration="6927000" />
       <workItem from="1577935548197" duration="12451000" />
       <workItem from="1577956061040" duration="6953000" />
-      <workItem from="1578026342509" duration="3304000" />
+      <workItem from="1578026342509" duration="3677000" />
     </task>
     <servers />
   </component>
@@ -770,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137441000" />
+    <option name="totallyTimeSpent" value="137814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
