@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/ProductCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/HelloController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/idea 快捷键.md" afterPath="$PROJECT_DIR$/doc/idea 快捷键.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,24 +35,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java">
+      <file leaf-file-name="CategoryMapperCustom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="184">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryMapperCustom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapperCustom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1578018058964" expanded="true" signature="827:1097" ph="SELECT f.id category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/CategoryVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java">
+      <file leaf-file-name="SubCategoryVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/SubCategoryVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,40 +82,21 @@
       <file leaf-file-name="CategoryServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="483">
+              <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductCategory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/ProductCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/Sex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YesOrNo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/YesOrNo.java">
+      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -110,23 +108,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>StaticLoggerBinder</find>
-      <find>slf4j</find>
-      <find>org.slf4j.impl.StaticLoggerBinder</find>
-      <find>tk.mybatis.mapper.entity</find>
-      <find>driver</find>
-      <find>StuServiceStuService</find>
-      <find>saveParent</find>
-      <find>mapper.</find>
-      <find>mapper:</find>
-      <find>UserService</find>
       <find>debugger</find>
       <find>IMOOCJSONResult</find>
       <find>ok(</find>
@@ -134,7 +122,6 @@
       <find>createUser</find>
       <find>Sex</find>
       <find>usersMapper</find>
-      <find>imooc</find>
       <find>RequestHandler</find>
       <find>MD5Utils</find>
       <find>Example</find>
@@ -145,6 +132,19 @@
       <find>Sex.</find>
       <find>CategoryMapper</find>
       <find>YesOrNo.</find>
+      <find>subcategory</find>
+      <find>categoryMapperCustom</find>
+      <find>CategoryMapperCustomCategoryMapperCustom</find>
+      <find>mapperLocations</find>
+      <find>mybatis.mapperLocations</find>
+      <find>package</find>
+      <find>imooc</find>
+      <find>myCategoryVO</find>
+      <find>&lt;mappers</find>
+      <find>resource=&quot;</find>
+      <find>CategoryMapperCustom</find>
+      <find>getSubCatList</find>
+      <find>subCatList</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -164,12 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsSpecMapper.xml" />
-        <option value="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrderItemsMapper.xml" />
-        <option value="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrdersMapper.xml" />
-        <option value="$PROJECT_DIR$/foodie-mapper/src/main/resources/OrderStatusMapper.xml" />
-        <option value="$PROJECT_DIR$/foodie-mapper/src/main/resources/UsersMapper.xml" />
-        <option value="$PROJECT_DIR$/foodie-mapper/src/main/resources/UserAddressMapper.xml" />
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/imooc/controller/StuFooController.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/StuServiceImpl.java" />
@@ -194,7 +188,6 @@
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/UserService.java" />
         <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java" />
-        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java" />
         <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Users.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/CookieUtils.java" />
@@ -210,11 +203,18 @@
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/Sex.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/YesOrNo.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CarouselServiceImpl.java" />
-        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/productCategory.java" />
-        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/ProductCategory.java" />
+        <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/vo/CategoryVO.java" />
+        <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/vo/SubCategoryVO.java" />
+        <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/CategoryVO.java" />
+        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/foodie-mapper/target/classes/CategoryMapperCustom.xml" />
+        <option value="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java" />
+        <option value="$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapperCustom.xml" />
       </list>
     </option>
   </component>
@@ -248,13 +248,16 @@
           <item name="foodie" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-17" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -301,10 +304,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,30 +315,25 @@
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -346,7 +341,7 @@
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -355,27 +350,17 @@
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="muxin" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="muxin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-api" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -383,47 +368,47 @@
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="muxin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
               <item name="foodie" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="muxin" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
@@ -474,6 +459,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,24 +482,24 @@
     <property name="SearchEverywhereHistoryKey" value="sw&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/config/Swagger2.java&#10;pa&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/PassportController.java&#10;userbo&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java&#10;saveParent&#9;PSI&#9;JAVA://com.imooc.service.StuService#saveParent&#10;TestTr&#9;PSI&#9;JAVA://org.springframework.test.context.transaction.TestTransaction" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources" />
-      <recent name="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo" />
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.muxin.mapper" />
       <recent name="com.muxin.utils" />
       <recent name="com.muxin.utiils" />
       <recent name="com.imooc.service" />
       <recent name="com.imooc.service.impl" />
-      <recent name="com.imooc.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
+      <recent name="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo" />
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -755,7 +743,9 @@
       <workItem from="1577702214703" duration="9339000" />
       <workItem from="1577769854834" duration="19526000" />
       <workItem from="1577860923335" duration="6927000" />
-      <workItem from="1577935548197" duration="6672000" />
+      <workItem from="1577935548197" duration="12451000" />
+      <workItem from="1577956061040" duration="6953000" />
+      <workItem from="1578026342509" duration="3304000" />
     </task>
     <servers />
   </component>
@@ -780,7 +770,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121405000" />
+    <option name="totallyTimeSpent" value="137441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,24 +782,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="28" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32836932" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24248926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0802224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40348694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3362391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.4786642" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25608012" sideWeight="0.47447073" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -817,7 +806,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.5213358" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23748212" sideWeight="0.52552927" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3897883" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -831,7 +820,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24248926" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004292" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -839,7 +828,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4935065" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2702366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3897883" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -847,14 +836,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57160646" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5641345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.4786642" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23748212" sideWeight="0.47447073" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.5213358" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23748212" sideWeight="0.52552927" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -872,24 +861,6 @@
           <properties class="com.muxin.service.UserService" method="queryUserForLogin" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="9" />
     </breakpoint-manager>
@@ -900,90 +871,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/TestTransServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/Props.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/DayCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/RandomCodeStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/HttpReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Code.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Sid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="54" column="22" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spi/2.4.0/springfox-spi-2.4.0.jar!/springfox/documentation/spi/DocumentationType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1062,14 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -1094,16 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1123,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,7 +1007,7 @@
         <state relative-caret-position="367">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2042,7 +1910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2074,16 +1941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/aspect/ServiceLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="46" column="61" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-api/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -2100,22 +1957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5.jar!/tk/mybatis/mapper/entity/Example.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding>
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2124,7 +1969,7 @@
         <state relative-caret-position="618">
           <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2133,27 +1978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2161,7 +1985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2173,21 +1996,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/YesOrNo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsCommentsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CarouselMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/my/mapper/MyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/bo/UserBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/TestTransServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/target/classes/CategoryMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <marker date="1578026787253" expanded="true" signature="827:870" ph="SELECT f.id category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/aspect/ServiceLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="75" column="48" lean-forward="false" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="483">
+          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/YesOrNo.java">
+    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/CategoryVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="344">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/SubCategoryVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1578018058964" expanded="true" signature="827:1097" ph="SELECT f.id category" />
+          </folding>
         </state>
       </provider>
     </entry>

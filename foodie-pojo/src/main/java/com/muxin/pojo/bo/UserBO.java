@@ -1,4 +1,4 @@
-package com.muxin.bo;
+package com.muxin.pojo.bo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

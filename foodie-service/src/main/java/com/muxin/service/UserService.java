@@ -1,6 +1,6 @@
 package com.muxin.service;
 
-import com.muxin.bo.UserBO;
+import com.muxin.pojo.bo.UserBO;
 import com.muxin.pojo.Users;
 
 /**

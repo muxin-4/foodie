@@ -1,6 +1,6 @@
 package com.muxin.controller;
 
-import com.muxin.bo.UserBO;
+import com.muxin.pojo.bo.UserBO;
 import com.muxin.pojo.Users;
 import com.muxin.service.UserService;
 import com.muxin.utils.CookieUtils;

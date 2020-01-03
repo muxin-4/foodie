@@ -1,7 +1,7 @@
 package com.muxin.service.impl;
 
 import com.muxin.enums.Sex;
-import com.muxin.bo.UserBO;
+import com.muxin.pojo.bo.UserBO;
 import com.muxin.mapper.UsersMapper;
 import com.muxin.pojo.Users;
 import com.muxin.service.UserService;
