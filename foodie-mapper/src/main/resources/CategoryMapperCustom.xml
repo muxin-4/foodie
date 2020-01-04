@@ -36,4 +36,44 @@
 		f.father_id = #{rootCatId}
 	</select>
 
+	<resultMap id="myNewItemsVO" type="com.muxin.pojo.vo.NewItemsVO">
+		<id column="rootCatId" property="rootCatId"/>
+		<result column="rootCatName" property="rootCatName"/>
+		<result column="slogan" property="slogan"/>
+		<result column="catImage" property="catImage"/>
+		<result column="bgColor" property="bgColor"/>
+
+		<collection property="simpleItemList" ofType="com.muxin.pojo.vo.SimpleItemVO">
+			<id column="itemId" property="itemId"/>
+			<result column="itemName" property="itemName"/>
+			<result column="itemUrl" property="itemUrl"/>
+		</collection>
+	</resultMap>
+	
+	<select id="getSixNewItemsLazy" resultMap="myNewItemsVO" parameterType="Map">
+		SELECT
+			f.id as rootCatId,
+			f.`name` as rootCatName,
+			f.slogan as slogan,
+			f.cat_image as catImage,
+			f.bg_color as bgColor,
+			i.id as itemId,
+			i.item_name as itemName,
+			ii.url as itemUrl,
+			i.created_time as createdTime
+		FROM
+			category f
+		left join items i on f.id = i.root_cat_id
+		left join items_img ii ON i.id = ii.item_id
+		WHERE
+			f.type = 1
+		and
+			i.root_cat_id = #{paramsMap.rootCatId}
+		and
+			ii.is_main = 1
+		ORDER BY i.created_time DESC
+		LIMIT 0,6
+		;
+	</select>
+
 </mapper>

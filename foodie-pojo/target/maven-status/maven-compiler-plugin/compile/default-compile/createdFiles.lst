@@ -6,6 +6,7 @@ com/muxin/pojo/Orders.class
 com/muxin/pojo/OrderStatus.class
 com/muxin/pojo/UserAddress.class
 com/muxin/pojo/ItemsComments.class
+com/muxin/pojo/vo/NewItemsVO.class
 com/muxin/pojo/bo/UserBO.class
 com/muxin/pojo/OrderItems.class
 com/muxin/pojo/ItemsSpec.class
@@ -13,4 +14,5 @@ com/muxin/pojo/vo/SubCategoryVO.class
 com/muxin/pojo/Stu.class
 com/muxin/pojo/ItemsImg.class
 com/muxin/pojo/Items.class
+com/muxin/pojo/vo/SimpleItemVO.class
 com/muxin/pojo/Users.class
