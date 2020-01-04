@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/NewItemsVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/SimpleItemVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapperCustom.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapperCustom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,118 +36,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CategoryService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CategoryService.java">
+      <file leaf-file-name="ItemsImg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsImg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryMapperCustom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapperCustom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="34" />
-              <folding>
-                <marker date="1578111363649" expanded="true" signature="827:1097" ph="SELECT f.id category" />
-                <marker date="1578111363649" expanded="true" signature="1763:2246" ph="SELECT f.id category" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewItemsVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/NewItemsVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleItemVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/SimpleItemVO.java">
+      <file leaf-file-name="ItemService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryMapperCustom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemsSpec.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -219,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/StuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/StuService.java" />
-        <option value="$PROJECT_DIR$/foodie-api/pom.xml" />
-        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/TestTransService.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/impl/TestTransServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/imooc/service/UserService.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -270,6 +191,10 @@
         <option value="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java" />
         <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemlService.java" />
+        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemlService.java" />
+        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -311,11 +236,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1710" />
-    <option name="y" value="132" />
-    <option name="width" value="2571" />
-    <option name="height" value="1417" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="60" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -360,6 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -561,7 +487,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -583,24 +508,24 @@
     <property name="SearchEverywhereHistoryKey" value="sw&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/config/Swagger2.java&#10;pa&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/PassportController.java&#10;userbo&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java&#10;saveParent&#9;PSI&#9;JAVA://com.imooc.service.StuService#saveParent&#10;TestTr&#9;PSI&#9;JAVA://org.springframework.test.context.transaction.TestTransaction" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.muxin.service.impl" />
+      <recent name="com.muxin.pojo.vo" />
+      <recent name="com.muxin.mapper" />
+      <recent name="com.muxin.utils" />
+      <recent name="com.muxin.utiils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources" />
       <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
       <recent name="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo" />
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.muxin.pojo.vo" />
-      <recent name="com.muxin.mapper" />
-      <recent name="com.muxin.utils" />
-      <recent name="com.muxin.utiils" />
-      <recent name="com.imooc.service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -846,7 +771,10 @@
       <workItem from="1577860923335" duration="6927000" />
       <workItem from="1577935548197" duration="12451000" />
       <workItem from="1577956061040" duration="6953000" />
-      <workItem from="1578026342509" duration="9822000" />
+      <workItem from="1578026342509" duration="10574000" />
+      <workItem from="1578121984530" duration="1175000" />
+      <workItem from="1578133362590" duration="235000" />
+      <workItem from="1578135347231" duration="3597000" />
     </task>
     <servers />
   </component>
@@ -871,7 +799,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143959000" />
+    <option name="totallyTimeSpent" value="149718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,27 +811,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-43" width="2560" height="1417" extended-state="6" />
+    <frame x="1" y="60" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32836932" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0802224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14449213" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24571854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8629933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14217633" sideWeight="0.47447073" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25035766" sideWeight="0.47447073" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4935065" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -914,7 +840,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -973,35 +901,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/service/Contact.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-annotations/1.5.6/swagger-annotations-1.5.6.jar!/io/swagger/annotations/ApiModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/StuFooController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.jar!/org/apache/catalina/filters/CorsFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -1020,9 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2053,23 +1947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CarouselServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CarouselService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/Sex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -2081,7 +1958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2089,7 +1965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2097,7 +1972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2105,7 +1979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2120,7 +1993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2135,7 +2007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2143,7 +2014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2151,7 +2021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2159,9 +2028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <marker date="1578112693155" expanded="true" signature="827:870" ph="SELECT f.id category" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2193,7 +2059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2201,7 +2066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2209,7 +2073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2217,32 +2080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2250,29 +2087,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
+        <state relative-caret-position="1702">
           <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="23" />
           <folding />
         </state>
@@ -2280,29 +2100,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
+        <state relative-caret-position="828">
           <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/CategoryMapperCustom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/resources/CategoryMapperCustom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
+        <state relative-caret-position="540">
           <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="34" />
           <folding>
             <marker date="1578111363649" expanded="true" signature="827:1097" ph="SELECT f.id category" />
             <marker date="1578111363649" expanded="true" signature="1763:2246" ph="SELECT f.id category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CarouselServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/CarouselService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
