@@ -2,7 +2,7 @@ package com.muxin.mapper;
 
 
 import com.muxin.my.mapper.MyMapper;
-import com.muxin.pojo.ItemsParam;
+import com.muxin.pojo.ItemParam;
 
-public interface ItemsParamMapper extends MyMapper<ItemsParam> {
+public interface ItemsParamMapper extends MyMapper<ItemParam> {
 }

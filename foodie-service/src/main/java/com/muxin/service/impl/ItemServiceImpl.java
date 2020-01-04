@@ -6,8 +6,8 @@ import com.muxin.mapper.ItemsParamMapper;
 import com.muxin.mapper.ItemsSpecMapper;
 import com.muxin.pojo.Items;
 import com.muxin.pojo.ItemsImg;
-import com.muxin.pojo.ItemsParam;
-import com.muxin.pojo.ItemsSpec;
+import com.muxin.pojo.ItemParam;
+import com.muxin.pojo.ItemSpec;
 import com.muxin.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -53,8 +53,8 @@ public class ItemServiceImpl implements ItemService {
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
-    public List<ItemsSpec> queryItemSpecList(String itemId) {
-        Example itemsSpecExp = new Example(ItemsSpec.class);
+    public List<ItemSpec> queryItemSpecList(String itemId) {
+        Example itemsSpecExp = new Example(ItemSpec.class);
         Example.Criteria criteria = itemsSpecExp.createCriteria();
         criteria.andEqualTo("itemId", itemId);
 
@@ -63,11 +63,11 @@ public class ItemServiceImpl implements ItemService {
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
-    public List<ItemsParam> queryItemParam(String itemId) {
-        Example itemsParamExp = new Example(ItemsParam.class);
+    public ItemParam queryItemParam(String itemId) {
+        Example itemsParamExp = new Example(ItemParam.class);
         Example.Criteria criteria = itemsParamExp.createCriteria();
         criteria.andEqualTo("itemId", itemId);
 
-        return itemsParamMapper.selectByExample(itemsParamExp);
+        return itemsParamMapper.selectOneByExample(itemsParamExp);
     }
 }

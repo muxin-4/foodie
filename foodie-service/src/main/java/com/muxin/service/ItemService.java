@@ -2,8 +2,8 @@ package com.muxin.service;
 
 import com.muxin.pojo.Items;
 import com.muxin.pojo.ItemsImg;
-import com.muxin.pojo.ItemsParam;
-import com.muxin.pojo.ItemsSpec;
+import com.muxin.pojo.ItemParam;
+import com.muxin.pojo.ItemSpec;
 
 import java.util.List;
 
@@ -39,7 +39,7 @@ public interface ItemService {
      * @param itemId
      * @return
      */
-    public List<ItemsSpec> queryItemSpecList(String itemId);
+    public List<ItemSpec> queryItemSpecList(String itemId);
 
 
     /**
@@ -48,6 +48,6 @@ public interface ItemService {
      * @param itemId
      * @return
      */
-    public List<ItemsParam> queryItemParam(String itemId);
+    public ItemParam queryItemParam(String itemId);
 
 }

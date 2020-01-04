@@ -4,6 +4,7 @@ com/muxin/pojo/ItemsParam.class
 com/muxin/pojo/vo/CategoryVO.class
 com/muxin/pojo/Orders.class
 com/muxin/pojo/OrderStatus.class
+com/muxin/pojo/vo/ItemInfoVO.class
 com/muxin/pojo/UserAddress.class
 com/muxin/pojo/ItemsComments.class
 com/muxin/pojo/vo/NewItemsVO.class
