@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/ItemsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/ItemInfoVO.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/StuFooController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/StuService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/StuServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/TestTransServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsParam.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemParam.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsSpec.java" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/test-classes/com/test/TransTest.class" afterPath="$PROJECT_DIR$/foodie-api/target/test-classes/com/test/TransTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/CommentLevel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/CommentLevelCountsVO.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsParam.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsSpec.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-common/target/foodie-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-common/target/foodie-common-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/test/java/com/test/TransTest.java" afterPath="$PROJECT_DIR$/foodie-api/src/test/java/com/test/TransTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsParamMapper.java" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsParamMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsSpecMapper.java" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsSpecMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsParamMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsParamMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsSpecMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/ItemsSpecMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/ItemsController.java" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/ItemsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsParamMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsParamMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsSpecMapper.xml" afterPath="$PROJECT_DIR$/foodie-mapper/target/classes/ItemsSpecMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java" />
@@ -61,32 +55,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItemsImg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsImg.java">
+      <file leaf-file-name="CommentLevelCountsVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/CommentLevelCountsVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="184">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemInfoVO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/ItemInfoVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -94,31 +68,11 @@
       <file leaf-file-name="ItemsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/ItemsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            <state relative-caret-position="505">
+              <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemSpec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemSpec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemParam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -185,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utiils/MD5Utils.java" />
-        <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/MD5Utils.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/JSONResult.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/DateUtil.java" />
         <option value="$PROJECT_DIR$/foodie-common/src/main/java/org/n3r/idworker/Code.java" />
@@ -227,15 +179,17 @@
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemlService.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemlService.java" />
-        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java" />
         <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/itemInfoVO.java" />
-        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/TestTransServiceImpl.java" />
         <option value="$PROJECT_DIR$/foodie-api/src/test/java/com/test/TransTest.java" />
-        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/ItemsController.java" />
         <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemSpec.java" />
         <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemParam.java" />
         <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/ItemInfoVO.java" />
+        <option value="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/CommentLevelCountsVO.java" />
+        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/CommentLevel.java" />
+        <option value="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/ItemsController.java" />
       </list>
     </option>
   </component>
@@ -277,11 +231,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1441" />
-    <option name="y" value="-43" />
-    <option name="width" value="2021" />
-    <option name="height" value="1119" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -326,9 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -414,6 +364,51 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie" type="462c0819:PsiDirectoryNode" />
+              <item name="foodie-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muxin" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foodie" type="b2602c69:ProjectViewProjectNode" />
@@ -562,6 +557,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -583,24 +581,24 @@
     <property name="SearchEverywhereHistoryKey" value="sw&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/config/Swagger2.java&#10;pa&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/PassportController.java&#10;userbo&#9;FILE&#9;file:///Users/wgy/All/my-code/java/foodie/foodie-pojo/src/main/java/com/muxin/bo/UserBO.java&#10;saveParent&#9;PSI&#9;JAVA://com.imooc.service.StuService#saveParent&#10;TestTr&#9;PSI&#9;JAVA://org.springframework.test.context.transaction.TestTransaction" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.muxin.enums" />
+      <recent name="com.muxin.pojo.vo" />
+      <recent name="com.muxin.controller" />
+      <recent name="com.muxin.service.impl" />
+      <recent name="com.muxin.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources" />
       <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
       <recent name="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo" />
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.muxin.pojo.vo" />
-      <recent name="com.muxin.controller" />
-      <recent name="com.muxin.service.impl" />
-      <recent name="com.muxin.mapper" />
-      <recent name="com.muxin.utils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -850,7 +848,8 @@
       <workItem from="1578121984530" duration="1175000" />
       <workItem from="1578133362590" duration="235000" />
       <workItem from="1578135347231" duration="3806000" />
-      <workItem from="1578143505332" duration="2892000" />
+      <workItem from="1578143505332" duration="4792000" />
+      <workItem from="1578213361528" duration="2440000" />
     </task>
     <servers />
   </component>
@@ -875,7 +874,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152819000" />
+    <option name="totallyTimeSpent" value="157159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,8 +886,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1441" y="-43" width="2021" height="1119" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822967" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -897,28 +895,28 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14401212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23247497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37982565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09760766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.299141" sideWeight="0.47447073" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.47447073" order="0" side_tool="false" content_ui="combo" x="-1440" y="163" width="433" height="803" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4935065" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23748212" sideWeight="0.52552927" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3897883" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23748212" sideWeight="0.52552927" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -977,20 +975,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -1951,13 +1935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/YesOrNo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-mapper/src/main/java/com/muxin/mapper/ItemsCommentsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -2066,7 +2043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2074,17 +2050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2092,28 +2057,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/StuFooController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/StuFooController.java" />
     <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/PassportController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -2122,43 +2069,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/StuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/StuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/StuService.java" />
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/StuServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/TestTransService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/TestTransServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="39" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/TestTransServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2215,7 +2139,7 @@
         <state relative-caret-position="345">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
-            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2246,7 +2170,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/ItemInfoVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="460">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2264,16 +2188,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/ItemsImg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="115">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/YesOrNo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/enums/CommentLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/vo/CommentLevelCountsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/ItemsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        <state relative-caret-position="505">
+          <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

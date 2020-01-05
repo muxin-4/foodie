@@ -4,6 +4,7 @@ import com.muxin.pojo.Items;
 import com.muxin.pojo.ItemsImg;
 import com.muxin.pojo.ItemParam;
 import com.muxin.pojo.ItemSpec;
+import com.muxin.pojo.vo.CommentLevelCountsVO;
 
 import java.util.List;
 
@@ -50,4 +51,11 @@ public interface ItemService {
      */
     public ItemParam queryItemParam(String itemId);
 
+
+    /**
+     * 根据商品id查询商品的评价等级数量
+     *
+     * @param itemId
+     */
+    public CommentLevelCountsVO queryCommentCounts(String itemId);
 }

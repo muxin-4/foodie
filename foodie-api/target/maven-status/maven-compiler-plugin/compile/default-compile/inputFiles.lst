@@ -1,7 +1,7 @@
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/PassportController.java
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/config/Swagger2.java
-/Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/StuFooController.java
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/Application.java
+/Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/ItemsController.java
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/config/CorsConfig.java
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/controller/IndexController.java
 /Users/wgy/All/my-code/java/foodie/foodie-api/src/main/java/com/muxin/aspect/ServiceLogAspect.java

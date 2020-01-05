@@ -1,9 +1,9 @@
 com/muxin/service/impl/CarouselServiceImpl.class
 com/muxin/service/CategoryService.class
+com/muxin/service/ItemService.class
 com/muxin/service/impl/CategoryServiceImpl.class
+com/muxin/service/impl/ItemServiceImpl.class
 com/muxin/service/UserService.class
-com/muxin/service/StuService.class
 com/muxin/service/impl/UserServiceImpl.class
 com/muxin/service/CarouselService.class
-com/muxin/service/impl/TestTransServiceImpl.class
 com/muxin/service/TestTransService.class
