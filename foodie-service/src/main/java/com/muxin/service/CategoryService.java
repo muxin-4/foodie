@@ -2,6 +2,8 @@ package com.muxin.service;
 
 import com.muxin.pojo.Category;
 import com.muxin.pojo.vo.CategoryVO;
+import com.muxin.pojo.vo.NewItemsVO;
+
 import java.util.List;
 
 public interface CategoryService {
@@ -28,6 +30,6 @@ public interface CategoryService {
      * @param rootCatId
      * @return
      */
-    public List getSixNewItemsLazy(Integer rootCatId);
+    public List<NewItemsVO> getSixNewItemsLazy(Integer rootCatId);
 
 }

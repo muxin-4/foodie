@@ -83,7 +83,7 @@ public class IndexController {
      * 1. 第一次刷新主页查询大分类，渲染展示到首页
      * 2. 如果鼠标上移到大分类，则加载其子分类的内容，如果已经存在子分类，则不需要加载
      */
-    @ApiOperation(value = "查询每个一级分类下的最新6条商品数据", notes = "获取商品分类", httpMethod = "GET")
+    @ApiOperation(value = "查询每个一级分类下的最新6条商品数据", notes = "查询每个一级分类下的最新6条商品数据", httpMethod = "GET")
     @GetMapping("/sixNewItems/{rootCatId}")
     public JSONResult sixNewItems(
             @ApiParam(name = "rootCatId", value = "一级分类id", required = true)
