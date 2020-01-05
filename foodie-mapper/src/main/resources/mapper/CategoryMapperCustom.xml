@@ -8,6 +8,11 @@
 		<result column="type" property="type"/>
 		<result column="fatherId" property="fatherId"/>
 
+		<!--
+          collection 标签：用于定义关联的list集合类型的封装规则
+          property：对应三级分类的list属性名
+          ofType：集合的类型，三级分类的vo
+        -->
 		<collection property="subCatList" ofType="com.muxin.pojo.vo.SubCategoryVO">
 			<id column="subId" property="subId"/>
 			<result column="subName" property="subName"/>
@@ -20,7 +25,7 @@
 		SELECT
 		f.id as id,
 		f.`name` as `name`,
-``
+		f.type as type,
 		f.father_id as fatherId,
 		c.id as subId,
 		c.`name` as subName,
@@ -49,31 +54,33 @@
 			<result column="itemUrl" property="itemUrl"/>
 		</collection>
 	</resultMap>
-	
+
 	<select id="getSixNewItemsLazy" resultMap="myNewItemsVO" parameterType="Map">
 		SELECT
-			f.id as rootCatId,
-			f.`name` as rootCatName,
-			f.slogan as slogan,
-			f.cat_image as catImage,
-			f.bg_color as bgColor,
-			i.id as itemId,
-			i.item_name as itemName,
-			ii.url as itemUrl,
-			i.created_time as createdTime
+		f.id as rootCatId,
+		f.`name` as rootCatName,
+		f.slogan as slogan,
+		f.cat_image as catImage,
+		f.bg_color as bgColor,
+		i.id as itemId,
+		i.item_name as itemName,
+		ii.url as itemUrl,
+		i.created_time as createdTime
 		FROM
-			category f
-		left join items i on f.id = i.root_cat_id
-		left join items_img ii ON i.id = ii.item_id
+		category f
+		LEFT JOIN items i ON f.id = i.root_cat_id
+		LEFT JOIN items_img ii ON i.id = ii.item_id
 		WHERE
-			f.type = 1
-		and
-			i.root_cat_id = #{paramsMap.rootCatId}
-		and
-			ii.is_main = 1
-		ORDER BY i.created_time DESC
+		f.type = 1
+		AND
+		i.root_cat_id = #{paramsMap.rootCatId}
+		AND
+		ii.is_main = 1
+		ORDER BY
+		i.created_time
+		DESC
 		LIMIT 0,6
-		;
 	</select>
+
 
 </mapper>
