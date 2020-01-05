@@ -61,8 +61,8 @@ public class ItemServiceImpl implements ItemService {
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
-    public ItemParam queryItemParam(String itemId) {
-        Example itemsParamExp = new Example(ItemParam.class);
+    public ItemParams queryItemParam(String itemId) {
+        Example itemsParamExp = new Example(ItemParams.class);
         Example.Criteria criteria = itemsParamExp.createCriteria();
         criteria.andEqualTo("itemId", itemId);
 

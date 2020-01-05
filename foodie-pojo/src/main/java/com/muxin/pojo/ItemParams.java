@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Table(name = "items_param")
-public class ItemParam {
+public class ItemParams {
     /**
      * 商品参数id
      */

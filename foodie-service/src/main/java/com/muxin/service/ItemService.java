@@ -2,7 +2,7 @@ package com.muxin.service;
 
 import com.muxin.pojo.Items;
 import com.muxin.pojo.ItemsImg;
-import com.muxin.pojo.ItemParam;
+import com.muxin.pojo.ItemParams;
 import com.muxin.pojo.ItemSpec;
 import com.muxin.pojo.vo.CommentLevelCountsVO;
 
@@ -49,7 +49,7 @@ public interface ItemService {
      * @param itemId
      * @return
      */
-    public ItemParam queryItemParam(String itemId);
+    public ItemParams queryItemParam(String itemId);
 
 
     /**
