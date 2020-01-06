@@ -2,6 +2,7 @@ com/muxin/pojo/Category.class
 com/muxin/pojo/Carousel.class
 com/muxin/pojo/vo/CategoryVO.class
 com/muxin/pojo/Orders.class
+com/muxin/pojo/vo/ItemCommentVO.class
 com/muxin/pojo/OrderStatus.class
 com/muxin/pojo/vo/ItemInfoVO.class
 com/muxin/pojo/UserAddress.class
@@ -9,7 +10,6 @@ com/muxin/pojo/ItemsComments.class
 com/muxin/pojo/vo/NewItemsVO.class
 com/muxin/pojo/bo/UserBO.class
 com/muxin/pojo/OrderItems.class
-com/muxin/pojo/ItemParam.class
 com/muxin/pojo/vo/SubCategoryVO.class
 com/muxin/pojo/vo/CommentLevelCountsVO.class
 com/muxin/pojo/Stu.class

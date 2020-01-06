@@ -5,6 +5,8 @@ import com.muxin.pojo.ItemsImg;
 import com.muxin.pojo.ItemParams;
 import com.muxin.pojo.ItemSpec;
 import com.muxin.pojo.vo.CommentLevelCountsVO;
+import com.muxin.pojo.vo.ItemCommentVO;
+import com.muxin.utils.PagedGridResult;
 
 import java.util.List;
 
@@ -58,4 +60,14 @@ public interface ItemService {
      * @param itemId
      */
     public CommentLevelCountsVO queryCommentCounts(String itemId);
+
+    /**
+     * 根据商品id查询商品的评价（分页）
+     * @param itemId
+     * @param level
+     * @return
+     */
+    public PagedGridResult queryPagedComment(String itemId, Integer level,
+                                             Integer page, Integer pageSize);
+
 }
