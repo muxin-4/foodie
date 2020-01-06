@@ -8,6 +8,7 @@ import com.muxin.pojo.*;
 import com.muxin.pojo.vo.CommentLevelCountsVO;
 import com.muxin.pojo.vo.ItemCommentVO;
 import com.muxin.service.ItemService;
+import com.muxin.utils.DesensitizationUtil;
 import com.muxin.utils.PagedGridResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -126,6 +127,10 @@ public class ItemServiceImpl implements ItemService {
       PageHelper.startPage(page, pageSize);
 
       List<ItemCommentVO> list = itemsMapperCustom.queryItemComments(map);
+
+      for (ItemCommentVO vo : list ) {
+        vo.setNickname(DesensitizationUtil.commonDisplay(vo.getNickname()));
+      }
 
       return setterPagedGrid(list, page);
     }

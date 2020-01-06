@@ -2,6 +2,7 @@
 /Users/wgy/All/my-code/java/foodie/foodie-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java
 /Users/wgy/All/my-code/java/foodie/foodie-common/src/main/java/org/n3r/idworker/utils/Props.java
 /Users/wgy/All/my-code/java/foodie/foodie-common/src/main/java/com/muxin/enums/Sex.java
+/Users/wgy/All/my-code/java/foodie/foodie-common/src/main/java/com/muxin/utils/DesensitizationUtil.java
 /Users/wgy/All/my-code/java/foodie/foodie-common/src/main/java/com/muxin/enums/CommentLevel.java
 /Users/wgy/All/my-code/java/foodie/foodie-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java
 /Users/wgy/All/my-code/java/foodie/foodie-common/src/main/java/com/muxin/utils/DateUtil.java
