@@ -3,6 +3,7 @@ com/muxin/config/Swagger2.class
 com/muxin/controller/IndexController.class
 com/muxin/Application.class
 com/muxin/config/CorsConfig.class
+com/muxin/controller/ShopcatController.class
 com/muxin/controller/BaseController.class
 com/muxin/aspect/ServiceLogAspect.class
 com/muxin/controller/PassportController.class
