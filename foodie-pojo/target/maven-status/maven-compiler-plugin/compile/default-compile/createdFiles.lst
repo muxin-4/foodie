@@ -17,6 +17,7 @@ com/muxin/pojo/vo/SubCategoryVO.class
 com/muxin/pojo/vo/CommentLevelCountsVO.class
 com/muxin/pojo/Stu.class
 com/muxin/pojo/ItemsImg.class
+com/muxin/pojo/bo/AddressBO.class
 com/muxin/pojo/ItemSpec.class
 com/muxin/pojo/Items.class
 com/muxin/pojo/vo/SimpleItemVO.class

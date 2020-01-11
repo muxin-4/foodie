@@ -1,8 +1,10 @@
 package com.muxin.controller;
 
 import com.muxin.pojo.UserAddress;
+import com.muxin.pojo.bo.AddressBO;
 import com.muxin.service.AddressService;
 import com.muxin.utils.JSONResult;
+import com.muxin.utils.MobileEmailUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
@@ -48,4 +50,53 @@ public class AddressController {
     return JSONResult.ok(list);
   }
 
+  @ApiOperation(value = "用户新增地址", notes = "用户新增地址", httpMethod = "POST")
+  @PostMapping("/add")
+  public JSONResult add(
+    @RequestBody AddressBO addressBO) {
+
+    JSONResult checkRes = checkAddress(addressBO);
+    if (checkRes.getStatus() != 200) {
+      return checkRes;
+    }
+
+    addressService.addNewUserAddress(addressBO);
+
+    return JSONResult.ok();
+  }
+
+  private JSONResult checkAddress(AddressBO addressBO) {
+    String receiver = addressBO.getReceiver();
+    if (StringUtils.isBlank(receiver)) {
+      return JSONResult.errorMsg("收货人不能为空");
+    }
+    if (receiver.length() > 12) {
+      return JSONResult.errorMsg("收货人姓名不能太长");
+    }
+
+    String mobile = addressBO.getMobile();
+    if (StringUtils.isBlank(mobile)) {
+      return JSONResult.errorMsg("收货人手机号不能为空");
+    }
+    if (mobile.length() != 11) {
+      return JSONResult.errorMsg("收货人手机号长度不正确");
+    }
+    boolean isMobileOk = MobileEmailUtils.checkMobileIsOk(mobile);
+    if (!isMobileOk) {
+      return JSONResult.errorMsg("收货人手机号格式不正确");
+    }
+
+    String province = addressBO.getProvince();
+    String city = addressBO.getCity();
+    String district = addressBO.getDistrict();
+    String detail = addressBO.getDetail();
+    if (StringUtils.isBlank(province) ||
+      StringUtils.isBlank(city) ||
+      StringUtils.isBlank(district) ||
+      StringUtils.isBlank(detail)) {
+      return JSONResult.errorMsg("收货地址信息不能为空");
+    }
+
+    return JSONResult.ok();
+  }
 }

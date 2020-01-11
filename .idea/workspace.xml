@@ -2,21 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/MobileEmailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/bo/AddressBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/AddressController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodie-common/target/foodie-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-common/target/foodie-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CarouselMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsImgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsSpecMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderItemsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/StuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UserAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UserAddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CarouselServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CarouselServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,31 +75,6 @@
     </option>
   </component>
   <component name="ProjectId" id="1W0aUQIchTEysSOtrEuZ2JA09md" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpringJavaAutowiringInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -112,22 +100,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.muxin.service" />
-      <recent name="com.muxin.pojo.vo" />
-      <recent name="com.muxin.controller" />
-      <recent name="com.muxin.utils" />
-      <recent name="com.muxin.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
@@ -135,6 +112,17 @@
       <recent name="$PROJECT_DIR$/foodie-common/src/main/java" />
       <recent name="$PROJECT_DIR$/foodie-pojo/src/main/java/com/imooc/pojo" />
       <recent name="$PROJECT_DIR$/foodie-mapper/src/main/java/com/imooc/mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.muxin.utils" />
+      <recent name="com.muxin.service" />
+      <recent name="com.muxin.pojo.vo" />
+      <recent name="com.muxin.controller" />
+      <recent name="com.muxin.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
@@ -327,7 +315,7 @@
       <workItem from="1578288991093" duration="14178000" />
       <workItem from="1578315738478" duration="14000" />
       <workItem from="1578551243874" duration="11283000" />
-      <workItem from="1578746499042" duration="897000" />
+      <workItem from="1578746499042" duration="6281000" />
     </task>
     <servers />
   </component>
@@ -359,87 +347,89 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="231" key="#Project_Structure/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304586278" />
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1578712798325">
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1578748980093">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="2198" y="123" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578747607480" />
     <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578293413858" />
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1578712798325" />
-    <state width="2006" height="136" key="GridCell.Tab.0.bottom" timestamp="1578746955206">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1578748980093" />
+    <state width="1398" height="501" key="GridCell.Tab.0.bottom" timestamp="1578751638812">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849089" />
     <state width="2006" height="136" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955206" />
     <state width="1398" height="116" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835147" />
-    <state width="1398" height="443" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578715324568" />
-    <state width="2006" height="136" key="GridCell.Tab.0.center" timestamp="1578746955205">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state width="1398" height="501" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578751638812" />
+    <state width="1398" height="501" key="GridCell.Tab.0.center" timestamp="1578751638811">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.0.center/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849088" />
     <state width="2006" height="136" key="GridCell.Tab.0.center/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955205" />
     <state width="1398" height="116" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835146" />
-    <state width="1398" height="443" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1578715324567" />
-    <state width="2006" height="136" key="GridCell.Tab.0.left" timestamp="1578746955204">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state width="1398" height="501" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1578751638811" />
+    <state width="1398" height="501" key="GridCell.Tab.0.left" timestamp="1578751638811">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.0.left/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849088" />
     <state width="2006" height="136" key="GridCell.Tab.0.left/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955204" />
     <state width="1398" height="116" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835145" />
-    <state width="1398" height="443" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1578715324567" />
-    <state width="2006" height="136" key="GridCell.Tab.0.right" timestamp="1578746955206">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state width="1398" height="501" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1578751638811" />
+    <state width="1398" height="501" key="GridCell.Tab.0.right" timestamp="1578751638812">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.0.right/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849089" />
     <state width="2006" height="136" key="GridCell.Tab.0.right/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955206" />
     <state width="1398" height="116" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835146" />
-    <state width="1398" height="443" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1578715324568" />
-    <state width="2006" height="136" key="GridCell.Tab.1.bottom" timestamp="1578746955209">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state width="1398" height="501" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1578751638812" />
+    <state width="1398" height="501" key="GridCell.Tab.1.bottom" timestamp="1578751638814">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849091" />
     <state width="2006" height="136" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955209" />
     <state width="1398" height="392" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835142" />
-    <state width="1398" height="443" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578715324570" />
-    <state width="2006" height="136" key="GridCell.Tab.1.center" timestamp="1578746955208">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state width="1398" height="501" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578751638814" />
+    <state width="1398" height="501" key="GridCell.Tab.1.center" timestamp="1578751638813">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.1.center/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849090" />
     <state width="2006" height="136" key="GridCell.Tab.1.center/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955208" />
     <state width="1398" height="392" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835141" />
-    <state width="1398" height="443" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1578715324569" />
-    <state width="2006" height="136" key="GridCell.Tab.1.left" timestamp="1578746955207">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state width="1398" height="501" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1578751638813" />
+    <state width="1398" height="501" key="GridCell.Tab.1.left" timestamp="1578751638813">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.1.left/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849090" />
     <state width="2006" height="136" key="GridCell.Tab.1.left/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955207" />
     <state width="1398" height="392" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835140" />
-    <state width="1398" height="443" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1578715324569" />
-    <state width="2006" height="136" key="GridCell.Tab.1.right" timestamp="1578746955208">
-      <screen x="1440" y="-43" width="2048" height="1129" />
+    <state width="1398" height="501" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1578751638813" />
+    <state width="1398" height="501" key="GridCell.Tab.1.right" timestamp="1578751638813">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="326" key="GridCell.Tab.1.right/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578629849091" />
     <state width="2006" height="136" key="GridCell.Tab.1.right/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746955208" />
     <state width="1398" height="392" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578304835141" />
-    <state width="1398" height="443" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1578715324570" />
-    <state x="221" y="63" key="SettingsEditor" timestamp="1578293501479">
+    <state width="1398" height="501" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1578751638813" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1578751801885">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="63" key="SettingsEditor/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578293501479" />
+    <state x="221" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1578751801885" />
     <state x="2005" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1578746499099">
       <screen x="1440" y="-43" width="2048" height="1129" />
     </state>
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-43.2048.1129@0.23.1440.877" timestamp="1578551530460" />
     <state x="2005" y="306" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-43.2048.1129@1440.-43.2048.1129" timestamp="1578746499099" />
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578288991921" />
-    <state x="367" y="171" width="837" height="729" key="find.popup" timestamp="1578714630365">
+    <state x="367" y="171" width="837" height="729" key="find.popup" timestamp="1578752770097">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="378" y="97" width="837" height="729" key="find.popup/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578303591064" />
-    <state x="367" y="171" width="837" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1578714630365" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1578712881112">
+    <state x="367" y="171" width="837" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1578752770097" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1578750483017">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1578300083509" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1578712881112" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1578750483017" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
