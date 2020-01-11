@@ -16,7 +16,7 @@ public class DesensitizationUtil {
     public static void main(String[] args) {
         String name = commonDisplay("muxin");
         String mobile = commonDisplay("13900000000");
-        String mail = commonDisplay("admin@imooc.com");
+        String mail = commonDisplay("wgy952046097@gmail.com");
         String address = commonDisplay("北京大运河东路888号");
 
         System.out.println(name);

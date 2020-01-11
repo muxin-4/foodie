@@ -14,12 +14,12 @@ import java.net.URLEncoder;
 /**
  *
  * @Title: CookieUtils.java
- * @Package com.imooc.utils
+ * @Package com.muxin.utils
  * @Description: Cookie 工具类
  * Copyright: Copyright (c)
- * Company: www.imooc.com
+ * Company: www.yaoyaoniu.com
  *
- * @author imooc
+ * @author muxin
  * @version V1.0
  */
 public final class CookieUtils {

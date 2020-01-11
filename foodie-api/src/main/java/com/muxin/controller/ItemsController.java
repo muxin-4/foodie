@@ -3,6 +3,7 @@ package com.muxin.controller;
 import com.muxin.pojo.*;
 import com.muxin.pojo.vo.CommentLevelCountsVO;
 import com.muxin.pojo.vo.ItemInfoVO;
+import com.muxin.pojo.vo.ShopcartVO;
 import com.muxin.service.ItemService;
 import com.muxin.utils.JSONResult;
 import com.muxin.utils.PagedGridResult;
@@ -98,4 +99,20 @@ public class ItemsController extends BaseController {
 
       return JSONResult.ok(grid);
     }
+
+  // 用于用户长时间未登录网站，刷新购物车中的数据（主要是商品价格），类似京东淘宝
+  @ApiOperation(value = "根据商品规格ids查找最新的商品数据", notes = "根据商品规格ids查找最新的商品数据", httpMethod = "GET")
+  @GetMapping("/refresh")
+  public JSONResult refresh(
+    @ApiParam(name = "itemSpecIds", value = "拼接的规格ids", required = true, example = "1001,1003,1005")
+    @RequestParam String itemSpecIds) {
+
+    if (StringUtils.isBlank(itemSpecIds)) {
+      return JSONResult.ok();
+    }
+
+    List<ShopcartVO> list = itemService.queryItemsBySpecIds(itemSpecIds);
+
+    return JSONResult.ok(list);
+  }
 }
