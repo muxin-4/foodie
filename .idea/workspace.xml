@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb2a34c-f228-4111-8f65-ceb59efc7e39" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/foodie-common/src/main/java/com/muxin/utils/MobileEmailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-pojo/src/main/java/com/muxin/pojo/bo/AddressBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/src/main/java/com/muxin/controller/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-api/target/foodie-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-common/target/foodie-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-common/target/foodie-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CarouselMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsImgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsSpecMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderItemsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/StuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UserAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UserAddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-mapper/target/foodie-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/foodie-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CarouselServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/src/main/java/com/muxin/service/impl/CarouselServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-service/target/foodie-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +288,7 @@
       <workItem from="1578288991093" duration="14178000" />
       <workItem from="1578315738478" duration="14000" />
       <workItem from="1578551243874" duration="11283000" />
-      <workItem from="1578746499042" duration="6281000" />
+      <workItem from="1578746499042" duration="6477000" />
     </task>
     <servers />
   </component>

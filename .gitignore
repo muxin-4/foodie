@@ -1,15 +1,35 @@
-# IDEA Items
-*.iml
-.idea/
-
+# Compiled class file
 *.class
-pmd_result.log
-mvn_pmd.sh
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
 # Package Files #
 *.jar
 *.war
+*.nar
 *.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# IDEA Items
+*.iml
+.idea/
+
+pmd_result.log
+mvn_pmd.sh
+
+# Package Files #
 .settings
 .idea
 .metadata
@@ -18,7 +38,6 @@ classes
 .jupiter
 .project
 .classpath
-*.log
 *.lock
 *.DS_Store
 *.swp
@@ -26,3 +45,6 @@ classes
 *.iml
 /bin/
 /target/
+
+
+
