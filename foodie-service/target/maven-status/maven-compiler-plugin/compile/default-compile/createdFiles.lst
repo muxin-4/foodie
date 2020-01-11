@@ -7,3 +7,5 @@ com/muxin/service/UserService.class
 com/muxin/service/impl/UserServiceImpl.class
 com/muxin/service/CarouselService.class
 com/muxin/service/TestTransService.class
+com/muxin/service/AddressService.class
+com/muxin/service/impl/AddressServiceImpl.class
