@@ -44,7 +44,14 @@ classes
 *.out
 *.iml
 /bin/
+
+# target
 /target/
+foodie-api/target/*
+foodie-common/target/*
+foodie-mapper/target/*
+foodie-pojo/target/*
+foodie-service/target/*
 
 
 
