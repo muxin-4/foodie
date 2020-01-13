@@ -29,10 +29,10 @@ public class AddressServiceImpl implements AddressService {
     UserAddress ua = new UserAddress();
     ua.setUserId(userId);
 
-    return userAddressMapper.select(ua  );
+    return userAddressMapper.select(ua);
   }
 
-  @Transactional(propagation = Propagation.SUPPORTS)
+  @Transactional(propagation = Propagation.REQUIRED)
   @Override
   public void addNewUserAddress(AddressBO addressBO) {
 
@@ -55,5 +55,19 @@ public class AddressServiceImpl implements AddressService {
     newAddress.setUpdatedTime(new Date());
 
     userAddressMapper.insert(newAddress);
+  }
+
+  @Transactional(propagation = Propagation.SUPPORTS)
+  @Override
+  public void updateUserAddress(AddressBO addressBO) {
+    String addressId = addressBO.getAddressId();
+
+    UserAddress pendingAddress = new UserAddress();
+    BeanUtils.copyProperties(addressBO, pendingAddress);
+
+    pendingAddress.setId(addressId);
+    pendingAddress.setUpdatedTime(new Date());
+
+    userAddressMapper.updateByPrimaryKeySelective(pendingAddress);
   }
 }
