@@ -1,5 +1,6 @@
 package com.muxin.service.impl;
 
+import com.muxin.enums.YesOrNo;
 import com.muxin.mapper.UserAddressMapper;
 import com.muxin.pojo.UserAddress;
 import com.muxin.pojo.bo.AddressBO;
@@ -79,5 +80,27 @@ public class AddressServiceImpl implements AddressService {
     address.setUserId(userId);
 
     userAddressMapper.delete(address);
+  }
+
+  @Transactional(propagation = Propagation.REQUIRED)
+  @Override
+  public void updateUserAddressToBeDefault(String userId, String addressId) {
+
+    // 1. 查找默认地址,设置为不默认
+    UserAddress queryAddress = new UserAddress();
+    queryAddress.setUserId(userId);
+    queryAddress.setIsDefault(YesOrNo.YES.type);
+    List<UserAddress> list = userAddressMapper.select(queryAddress);
+    for (UserAddress ua : list) {
+      ua.setIsDefault(YesOrNo.NO.type);
+      userAddressMapper.updateByPrimaryKeySelective(ua);
+    }
+
+    // 2. 根据地址id修改为默认的地址
+    UserAddress defaultAddress = new UserAddress();
+    defaultAddress.setId(addressId);
+    defaultAddress.setUserId(userId);
+    defaultAddress.setIsDefault(YesOrNo.YES.type);
+    userAddressMapper.updateByPrimaryKeySelective(defaultAddress);
   }
 }
