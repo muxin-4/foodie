@@ -2,7 +2,7 @@ package com.muxin.service.impl;
 
 import com.muxin.enums.ProductCategory;
 import com.muxin.mapper.CategoryMapper;
-import com.muxin.mapper.CategoryMapperCustom;
+import com.muxin.mapper.CategoryCustomMapper;
 import com.muxin.pojo.Category;
 import com.muxin.pojo.vo.CategoryVO;
 import com.muxin.pojo.vo.NewItemsVO;
@@ -30,7 +30,7 @@ public class CategoryServiceImpl implements CategoryService {
     private CategoryMapper categoryMapper;
 
     @Autowired
-    private CategoryMapperCustom categoryMapperCustom;
+    private CategoryCustomMapper categoryCustomMapper;
 
 
     @Transactional(propagation = Propagation.SUPPORTS)
@@ -48,7 +48,7 @@ public class CategoryServiceImpl implements CategoryService {
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<CategoryVO> getSubCatList(Integer rootCatId) {
-        return categoryMapperCustom.getSubCatList(rootCatId);
+        return categoryCustomMapper.getSubCatList(rootCatId);
     }
 
     @Transactional(propagation = Propagation.SUPPORTS)
@@ -59,6 +59,6 @@ public class CategoryServiceImpl implements CategoryService {
         map.put("rootCatId", rootCatId);
 
 
-        return categoryMapperCustom.getSixNewItemsLazy(map);
+        return categoryCustomMapper.getSixNewItemsLazy(map);
     }
 }

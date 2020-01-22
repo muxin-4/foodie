@@ -39,9 +39,7 @@ public class AddressController {
 
   @ApiOperation(value = "根据用户id查询收货地址列表", notes = "根据用户id查询收货地址列表", httpMethod = "POST")
   @PostMapping("/list")
-  public JSONResult list(
-    @RequestParam String userId) {
-
+  public JSONResult list(@RequestParam String userId) {
     if (StringUtils.isBlank(userId)) {
       return JSONResult.errorMsg("");
     }

@@ -1,7 +1,7 @@
 package com.muxin.service.impl;
 
 import com.muxin.enums.YesOrNo;
-import com.muxin.mapper.UserAddressMapper;
+import com.muxin.mapper.AddressMapper;
 import com.muxin.pojo.UserAddress;
 import com.muxin.pojo.bo.AddressBO;
 import com.muxin.service.AddressService;
@@ -19,7 +19,7 @@ import java.util.List;
 public class AddressServiceImpl implements AddressService {
 
   @Autowired
-  private UserAddressMapper userAddressMapper;
+  private AddressMapper addressMapper;
 
   @Autowired
   private Sid sid;
@@ -30,7 +30,7 @@ public class AddressServiceImpl implements AddressService {
     UserAddress ua = new UserAddress();
     ua.setUserId(userId);
 
-    return userAddressMapper.select(ua);
+    return addressMapper.select(ua);
   }
 
   @Transactional(propagation = Propagation.REQUIRED)
@@ -55,7 +55,7 @@ public class AddressServiceImpl implements AddressService {
     newAddress.setCreatedTime(new Date());
     newAddress.setUpdatedTime(new Date());
 
-    userAddressMapper.insert(newAddress);
+    addressMapper.insert(newAddress);
   }
 
   @Transactional(propagation = Propagation.SUPPORTS)
@@ -69,7 +69,7 @@ public class AddressServiceImpl implements AddressService {
     pendingAddress.setId(addressId);
     pendingAddress.setUpdatedTime(new Date());
 
-    userAddressMapper.updateByPrimaryKeySelective(pendingAddress);
+    addressMapper.updateByPrimaryKeySelective(pendingAddress);
   }
 
   @Transactional(propagation = Propagation.REQUIRED)
@@ -79,7 +79,7 @@ public class AddressServiceImpl implements AddressService {
     address.setId(addressId);
     address.setUserId(userId);
 
-    userAddressMapper.delete(address);
+    addressMapper.delete(address);
   }
 
   @Transactional(propagation = Propagation.REQUIRED)
@@ -90,10 +90,10 @@ public class AddressServiceImpl implements AddressService {
     UserAddress queryAddress = new UserAddress();
     queryAddress.setUserId(userId);
     queryAddress.setIsDefault(YesOrNo.YES.type);
-    List<UserAddress> list = userAddressMapper.select(queryAddress);
+    List<UserAddress> list = addressMapper.select(queryAddress);
     for (UserAddress ua : list) {
       ua.setIsDefault(YesOrNo.NO.type);
-      userAddressMapper.updateByPrimaryKeySelective(ua);
+      addressMapper.updateByPrimaryKeySelective(ua);
     }
 
     // 2. 根据地址id修改为默认的地址
@@ -101,6 +101,17 @@ public class AddressServiceImpl implements AddressService {
     defaultAddress.setId(addressId);
     defaultAddress.setUserId(userId);
     defaultAddress.setIsDefault(YesOrNo.YES.type);
-    userAddressMapper.updateByPrimaryKeySelective(defaultAddress);
+    addressMapper.updateByPrimaryKeySelective(defaultAddress);
+  }
+
+  @Transactional(propagation = Propagation.SUPPORTS)
+  @Override
+  public UserAddress queryUserAddress(String userId, String addressId) {
+
+    UserAddress singleAddress = new UserAddress();
+    singleAddress.setId(addressId);
+    singleAddress.setUserId(userId);
+
+    return addressMapper.selectOne(singleAddress);
   }
 }

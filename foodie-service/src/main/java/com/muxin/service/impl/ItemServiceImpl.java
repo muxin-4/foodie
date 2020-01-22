@@ -39,7 +39,7 @@ public class ItemServiceImpl implements ItemService {
   @Autowired
   private ItemsCommentsMapper itemsCommentsMapper;
   @Autowired
-  private ItemsMapperCustom itemsMapperCustom;
+  private ItemsCustomMapper itemsCustomMapper;
 
   @Transactional(propagation = Propagation.SUPPORTS)
   @Override
@@ -125,7 +125,7 @@ public class ItemServiceImpl implements ItemService {
      */
     PageHelper.startPage(page, pageSize);
 
-    List<ItemCommentVO> list = itemsMapperCustom.queryItemComments(map);
+    List<ItemCommentVO> list = itemsCustomMapper.queryItemComments(map);
 
     for (ItemCommentVO vo : list) {
       vo.setNickname(DesensitizationUtil.commonDisplay(vo.getNickname()));
@@ -153,7 +153,7 @@ public class ItemServiceImpl implements ItemService {
     List<String> specIdsList = new ArrayList<>();
     Collections.addAll(specIdsList, ids);
 
-    return itemsMapperCustom.queryItemsBySpecIds(specIdsList);
+    return itemsCustomMapper.queryItemsBySpecIds(specIdsList);
   }
 
 }

@@ -1,12 +1,9 @@
 package com.muxin.service;
 
-  import com.muxin.pojo.Category;
-  import com.muxin.pojo.UserAddress;
-  import com.muxin.pojo.bo.AddressBO;
-  import com.muxin.pojo.vo.CategoryVO;
-  import com.muxin.pojo.vo.NewItemsVO;
+import com.muxin.pojo.UserAddress;
+import com.muxin.pojo.bo.AddressBO;
 
-  import java.util.List;
+import java.util.List;
 
 public interface AddressService {
 
@@ -49,4 +46,13 @@ public interface AddressService {
    * @param addressId
    */
   public void updateUserAddressToBeDefault(String userId, String addressId);
+
+  /**
+   * 根据用户Id和地址Id，查询具体的用户地址对象信息
+   *
+   * @param userId
+   * @param addressId
+   * @return
+   */
+  public UserAddress queryUserAddress(String userId, String addressId);
 }
