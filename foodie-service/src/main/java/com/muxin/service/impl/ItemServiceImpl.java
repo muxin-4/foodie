@@ -3,6 +3,7 @@ package com.muxin.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.muxin.enums.CommentLevel;
+import com.muxin.enums.YesOrNo;
 import com.muxin.mapper.*;
 import com.muxin.pojo.*;
 import com.muxin.pojo.vo.CommentLevelCountsVO;
@@ -59,8 +60,8 @@ public class ItemServiceImpl implements ItemService {
 
   @Transactional(propagation = Propagation.SUPPORTS)
   @Override
-  public List<ItemSpec> queryItemSpecList(String itemId) {
-    Example itemsSpecExp = new Example(ItemSpec.class);
+  public List<ItemsSpec> queryItemSpecList(String itemId) {
+    Example itemsSpecExp = new Example(ItemsSpec.class);
     Example.Criteria criteria = itemsSpecExp.createCriteria();
     criteria.andEqualTo("itemId", itemId);
 
@@ -156,4 +157,22 @@ public class ItemServiceImpl implements ItemService {
     return itemsCustomMapper.queryItemsBySpecIds(specIdsList);
   }
 
+  @Transactional(propagation = Propagation.SUPPORTS)
+  @Override
+  public ItemsSpec queryItemSpecById(String specId) {
+    return itemsSpecMapper.selectByPrimaryKey(specId);
+  }
+
+
+  @Transactional(propagation = Propagation.SUPPORTS)
+  @Override
+  public String queryItemMainImgById(String itemId) {
+
+    ItemsImg itemsImg = new ItemsImg();
+    itemsImg.setItemId(itemId);
+    itemsImg.setIsMain(YesOrNo.YES.type);
+    ItemsImg result = itemsImgMapper.selectOne(itemsImg);
+
+    return result != null ? result.getUrl() : "";
+  }
 }

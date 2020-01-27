@@ -3,7 +3,7 @@ package com.muxin.pojo.vo;
 import com.muxin.pojo.ItemParams;
 import com.muxin.pojo.Items;
 import com.muxin.pojo.ItemsImg;
-import com.muxin.pojo.ItemSpec;
+import com.muxin.pojo.ItemsSpec;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public class ItemInfoVO {
 
     private Items item;
     private List<ItemsImg> itemImgList;
-    private List<ItemSpec> itemSpecList;
+    private List<ItemsSpec> itemsSpecList;
     private ItemParams itemParams;
 
     public ItemParams getItemParams() {
@@ -44,12 +44,12 @@ public class ItemInfoVO {
         this.itemImgList = itemImgList;
     }
 
-    public List<ItemSpec> getItemSpecList() {
-        return itemSpecList;
+    public List<ItemsSpec> getItemSpecList() {
+        return itemsSpecList;
     }
 
-    public void setItemSpecList(List<ItemSpec> itemSpecList) {
-        this.itemSpecList = itemSpecList;
+    public void setItemSpecList(List<ItemsSpec> itemSpecList) {
+        this.itemsSpecList = itemSpecList;
     }
 
 }

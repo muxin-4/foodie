@@ -3,9 +3,8 @@ package com.muxin.service;
 import com.muxin.pojo.Items;
 import com.muxin.pojo.ItemsImg;
 import com.muxin.pojo.ItemParams;
-import com.muxin.pojo.ItemSpec;
+import com.muxin.pojo.ItemsSpec;
 import com.muxin.pojo.vo.CommentLevelCountsVO;
-import com.muxin.pojo.vo.ItemCommentVO;
 import com.muxin.pojo.vo.ShopcartVO;
 import com.muxin.utils.PagedGridResult;
 
@@ -43,7 +42,7 @@ public interface ItemService {
    * @param itemId
    * @return
    */
-  public List<ItemSpec> queryItemSpecList(String itemId);
+  public List<ItemsSpec> queryItemSpecList(String itemId);
 
 
   /**
@@ -79,4 +78,15 @@ public interface ItemService {
    * @return
    */
   public List<ShopcartVO> queryItemsBySpecIds(String specIds);
+
+  /**
+   * 根据商品规格id获取规格对象的具体信息
+   *
+   * @param specId
+   * @return
+   */
+  public ItemsSpec queryItemSpecById(String specId);
+
+
+  public String queryItemMainImgById(String itemId);
 }

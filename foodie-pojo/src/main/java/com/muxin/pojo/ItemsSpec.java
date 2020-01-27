@@ -1,11 +1,13 @@
 package com.muxin.pojo;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.math.BigDecimal;
 import java.util.Date;
 
 @Table(name = "items_spec")
-public class ItemSpec {
+public class ItemsSpec {
     /**
      * 商品规格id
      */

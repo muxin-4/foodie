@@ -42,15 +42,15 @@ public class ItemsController extends BaseController {
         }
 
         Items item = itemService.queryItemById(itemId);
-        List<ItemsImg> itemImgList = itemService.queryItemImgList(itemId);
-        List<ItemSpec> itemSpecList = itemService.queryItemSpecList(itemId);
+        List<ItemsImg> itemsImgList = itemService.queryItemImgList(itemId);
+        List<ItemsSpec> itemsSpecList = itemService.queryItemSpecList(itemId);
         ItemParams itemParams = itemService.queryItemParam(itemId);
 
 
         ItemInfoVO itemInfoVO = new ItemInfoVO();
         itemInfoVO.setItem(item);
-        itemInfoVO.setItemImgList(itemImgList);
-        itemInfoVO.setItemSpecList(itemSpecList);
+        itemInfoVO.setItemImgList(itemsImgList);
+        itemInfoVO.setItemSpecList(itemsSpecList);
         itemInfoVO.setItemParams(itemParams);
 
         return JSONResult.ok(itemInfoVO);
