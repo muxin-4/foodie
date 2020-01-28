@@ -1,7 +1,9 @@
 package com.muxin.service.impl;
 
+import com.muxin.enums.OrderStatusEnum;
 import com.muxin.enums.YesOrNo;
 import com.muxin.mapper.OrderItemsMapper;
+import com.muxin.mapper.OrderStatusMapper;
 import com.muxin.mapper.OrdersMapper;
 import com.muxin.pojo.*;
 import com.muxin.pojo.bo.SubmitOrderBO;
@@ -22,6 +24,9 @@ public class OrderServiceImpl implements OrderService {
 
   @Autowired
   private OrderItemsMapper orderItemsMapper;
+
+  @Autowired
+  private OrderStatusMapper orderStatusMapper;
 
   @Autowired
   private AddressService addressService;
@@ -103,6 +108,10 @@ public class OrderServiceImpl implements OrderService {
       subOrderItem.setItemSpecName(itemSpec.getName());
       subOrderItem.setPrice(itemSpec.getPriceDiscount());
       orderItemsMapper.insert(subOrderItem);
+
+      // 2.4 在用户提交订单以后，规格表中扣除库存
+      itemService.decreaseItemSpecStock(itemSpecId, buyCounts);
+
     }
 
     newOrder.setTotalAmount(totalAmount);
@@ -110,6 +119,11 @@ public class OrderServiceImpl implements OrderService {
     ordersMapper.insert(newOrder);
 
     // 3. 保存订单状态表
+    OrderStatus waitPayOrderStatus = new OrderStatus();
+    waitPayOrderStatus.setOrderId(orderId);
+    waitPayOrderStatus.setOrderStatus(OrderStatusEnum.WAIT_PAY.type);
+    waitPayOrderStatus.setCreatedTime(new Date());
+    orderStatusMapper.insert(waitPayOrderStatus);
 
   }
 }

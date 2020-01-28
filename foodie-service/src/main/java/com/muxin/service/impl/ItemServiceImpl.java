@@ -175,4 +175,31 @@ public class ItemServiceImpl implements ItemService {
 
     return result != null ? result.getUrl() : "";
   }
+
+  @Transactional(propagation = Propagation.REQUIRED)
+  @Override
+  public void decreaseItemSpecStock(String specId, int buyCounts) {
+
+    // 防止超卖
+    // 1. synchronized 不推荐使用，集群下无用，性能低下
+    // 2. 锁数据库：不推荐，导致数据库性能低下
+    // 3. 分布式锁 zookeeper redis
+
+    // lockUtil.getLock(); -- 枷锁
+
+    // 1. 查询库存
+    int stock = 2;
+
+    // 2. 判断库存，是否能够减少到0以下
+    if(stock - buyCounts < 0) {
+      // 提示用户库存不够
+    }
+
+    // lockUtil.unLock(); -- 解锁
+
+    int result = itemsCustomMapper.decreaseItemSpecStock(specId, buyCounts);
+    if (result != 1) {
+      throw new RuntimeException("订单创建失败，原因：库存不足！") ;
+    }
+  }
 }
