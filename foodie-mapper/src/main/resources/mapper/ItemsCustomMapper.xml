@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.muxin.mapper.ItemsMapperCustom" >
+<mapper namespace="com.muxin.mapper.ItemsCustomMapper" >
 
   <select id="queryItemComments" parameterType="Map" resultType="com.muxin.pojo.vo.ItemCommentVO">
     SELECT
@@ -130,7 +130,7 @@
   <update id="decreaseItemSpecStock">
 
         update
-            items_aspec
+            items_spec
         set
             stock = stock - #{pendingCounts}
         where

@@ -12,11 +12,13 @@ import com.muxin.service.ItemService;
 import com.muxin.service.OrderService;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 
+@Service
 public class OrderServiceImpl implements OrderService {
 
   @Autowired

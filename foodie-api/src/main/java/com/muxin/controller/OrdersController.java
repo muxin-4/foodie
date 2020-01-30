@@ -2,9 +2,11 @@ package com.muxin.controller;
 
 import com.muxin.enums.PayMethod;
 import com.muxin.pojo.bo.SubmitOrderBO;
+import com.muxin.service.OrderService;
 import com.muxin.utils.JSONResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -17,6 +19,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("orders")
 @RestController
 public class OrdersController {
+
+  @Autowired
+  private OrderService orderService;
 
 
   @ApiOperation(value = "用户下单", notes = "用户下单", httpMethod = "POST")
@@ -31,6 +36,7 @@ public class OrdersController {
     System.out.println(submitOrderBO.toString());
 
     // 1. 创建订单
+    orderService.createOrder(submitOrderBO);
 
     // 2. 移除购物车中已结算（已提交）的商品
 
